@@ -4,7 +4,7 @@ tasks:
   - name: ddev-gitpod-launcher
   
     command:
-    echo "write your commands here"
+    echo "write your commands here";
 
 vscode:
   extensions:
