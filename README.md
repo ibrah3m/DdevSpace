@@ -1,2 +1,3 @@
 # DdevSpace
-Clean workspace for new/testing projects purpose in Gitpod using DDEV image
+Looking for place to test your codes on ?
+Then your in the right place !
