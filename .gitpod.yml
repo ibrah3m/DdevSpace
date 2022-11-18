@@ -16,7 +16,18 @@ vscode:
     # Bash extensions
     - timonwong.shellcheck
     - rogalmic.bash-debug
-
+    
+jetbrains:
+  phpstorm:
+    prebuilds:
+      version: stable 
+    plugins:
+      - ru.adelf.idea.dotenv
+      - de.docs_as_co.intellij.plugin.diagramsnet
+      - com.github.googee.laravelgenerator
+      - com.laravel_idea.plugin
+      - nl.deschepers.laraveltinker
+ 
 github:
   prebuilds:
     # enable for the master/default branch (defaults to true)
