@@ -1,13 +1,11 @@
-from: drud/ddev-gitpod-base:20221018
+image: drud/ddev-gitpod-base:20221018
 
 
 
 tasks:
   - name: ddev-gitpod-launcher
     before: |
-      if [ $GITPOD_IDE_ALIAS = "phpstorm" ]; then \
-      echo -e 'alias npm="ddev exec npm " \n alias php="ddev exec php"  ' >> ~/.bashrc  \
-      fi
+      if [ $GITPOD_IDE_ALIAS = "phpstorm" ]; then echo -e 'alias npm="ddev exec npm " \n alias php="ddev exec php"  ' >> ~/.bashrc  fi
       apt-get update
       apt-get install -y ddev
       ddev start -y
