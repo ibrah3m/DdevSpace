@@ -1,4 +1,5 @@
-image: drud/ddev-gitpod-base:20221018
+image:
+  file: .gitpod.Dockerfile
 
 tasks:
   - name: ddev-gitpod-launcher
